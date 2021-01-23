@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 0.9375rem;
+
+    &__link {
+        font-size: 0.8125rem;
+        font-family: arial, sans-serif;
+        color: rgba(0, 0, 0, 0.87);
+        text-decoration: none;
+        &:last-child {
+            padding-left: 0.9375rem;
+        }
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

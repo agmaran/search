@@ -1,0 +1,17 @@
+.search {
+    display: block;
+    
+    &__form {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        padding-top: 0.375rem;
+        width: auto;
+        max-width: 30.25rem;
+    }
+    &__bar {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
