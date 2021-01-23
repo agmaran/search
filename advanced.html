@@ -7,13 +7,22 @@
 </head>
 
 <body>
-    <div class="container">
-        <a href="index.html" class="container__link">Google Search</a>
+    <div class="header">
+        <div class="header__logo">
+            <img src="logo.png" alt="Google">
+        </div>
+        <div class="header__link">
+            <a href="index.html">Google Search</a>
+        </div>
     </div>
-    <form action="https://google.com/search">
-        <input type="text" name="q">
-        <input type="submit" value="Advanced Search">
-    </form>
+    <div class="search">
+        <form action="https://www.google.com/images" class="search__form">
+            <input type="text" name="q" class="search__bar">
+            <div class="search__button">
+                <input type="submit" value="Advanced Search">
+            </div>
+        </form>
+    </div>
 
 </body>
 

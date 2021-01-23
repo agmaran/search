@@ -1,5 +1,4 @@
 html {
-  font-size: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: small;
@@ -124,5 +123,51 @@ body {
   background-color: #ececec;
   border: 0.0625rem solid #dadce0;
   color: #202124;
+}
+
+.header {
+  position: relative;
+  height: 3.75rem;
+  width: 100%;
+}
+
+.header__logo {
+  position: absolute;
+  padding: 0.9375rem 1.25rem 0 0.9375rem;
+  line-height: 3.625rem;
+}
+
+.header__logo img {
+  width: 5.75rem;
+  height: 2.0625rem;
+}
+
+.header__link {
+  height: 3.75rem;
+  line-height: 3.625rem;
+  min-width: 10.3125rem;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+  position: relative;
+  text-align: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-style: inherit;
+  font-size: 100%;
+  float: right;
+}
+
+.header__link a {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.header__link a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=styles.css.map */
