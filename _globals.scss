@@ -1,0 +1,16 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+    font-size: small;
+}
+
+body {
+    color: #202124;
+    font-family: arial, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
