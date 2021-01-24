@@ -6,10 +6,39 @@ html {
 body {
     color: #202124;
     font-family: arial, sans-serif;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
 }
 
 *,
 *::before,
 *::after {
     box-sizing: inherit;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto -3.75rem;
+}
+
+html,
+body,
+div,
+a,
+img,
+form,
+label,
+span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
 }

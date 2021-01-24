@@ -7,23 +7,86 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="header__logo">
-            <img src="logo.png" alt="Google">
-        </div>
-        <div class="header__link">
-            <a href="index.html">Google Search</a>
-        </div>
-    </div>
-    <div class="search">
-        <form action="https://www.google.com/images" class="search__form">
-            <input type="text" name="q" class="search__bar">
-            <div class="search__button">
-                <input type="submit" value="Advanced Search">
+    <div class="wrapper">
+        <div class="header">
+            <div class="header__logo">
+                <img src="logo.png" alt="Google">
             </div>
-        </form>
+            <div class="header__link">
+                <a href="index.html">Google Search</a>
+            </div>
+        </div>
+        <div class="title">
+            <label>Advanced search</label>
+        </div>
+        <div class="separator"></div>
+        <div class="form__container">
+            <form action="https://google.com/search" method="GET" name="f">
+                <div class="clear">
+                    <div class="inputs__subtitle">
+                        <div class="subtitle">
+                            <span>Find pages with...</span>
+                        </div>
+                    </div>
+                    <div class="space"></div>
+                </div>
+                <div class="clear">
+                    <div class="input_name_wrapper">
+                        <div class="input_name_cell">
+                            <label for="all_words">all these words:</label>
+                        </div>
+                    </div>
+                    <div class="input__wrapper">
+                        <div class="input__cell">
+                            <input id="all_words" name="as_q" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="clear">
+                    <div class="input_name_wrapper">
+                        <div class="input_name_cell">
+                            <label for="exact_word_phrase">this exact word or phrase:</label>
+                        </div>
+                    </div>
+                    <div class="input__wrapper">
+                        <div class="input__cell">
+                            <input id="exact_word_phrase" name="as_epq" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="clear">
+                    <div class="input_name_wrapper">
+                        <div class="input_name_cell">
+                            <label for="any_words">any of these words:</label>
+                        </div>
+                    </div>
+                    <div class="input__wrapper">
+                        <div class="input__cell">
+                            <input id="any_words" name="as_oq" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="clear">
+                    <div class="input_name_wrapper">
+                        <div class="input_name_cell">
+                            <label for="none_words">none of these words:</label>
+                        </div>
+                    </div>
+                    <div class="input__wrapper">
+                        <div class="input__cell">
+                            <input id="none_words" name="as_eq" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="clear">
+                    <div class="left_space"></div>
+                    <div class="button_wrapper">
+                        <input class="button" value="Advanced Search" type="submit">
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
-
 </body>
 
 </html>

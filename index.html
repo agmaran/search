@@ -15,10 +15,12 @@
         <img src="logo.png" alt="Google" class="logo__image">
     </div>
     <div class="search">
-        <form action="https://google.com/search" class="search__form">
+        <form class="search__form">
             <input type="text" name="q" class="search__bar">
             <div class="search__button">
-                <input type="submit" value="Google Search">
+                <input type="submit" name="gs" value="Google Search" formaction="https://google.com/search">
+                <input type="submit" name="btnI" value="I’m Feeling Lucky"
+                    formaction="https://google.com/search?&btnI=1">
             </div>
         </form>
     </div>
