@@ -34,6 +34,17 @@
     width: 50%;
 }
 
+.instructions {
+    font-weight: 700;
+    color: #777;
+    padding-left: 13rem;
+    &__title {
+        height: 30px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
 .left_space {
     display: inline-block;
     min-width: 167px;
@@ -60,6 +71,7 @@
     height: 30px;
     display: table-cell;
     vertical-align: middle;
+    font-size: 1.1rem;
 }
 
 .input__wrapper {
@@ -77,8 +89,33 @@
         border: 1px solid #d9d9d9;
         border-top: 1px solid #c0c0c0;
         font-size: 13px;
-        height: 25px;
+        height: 2.5rem;
         padding: 1px 8px;
+        width: 100%;
+    }
+}
+
+.guidance {
+    display: inline-block;
+    min-width: 160px;
+    margin: 0 0 8px 1%;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+
+    &__text {
+        height: 30px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    span {
+        color: #666;
+        font-family: monospace;
+        font-size: 11px;
+        white-space: pre;
     }
 }
 

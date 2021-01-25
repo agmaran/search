@@ -1,21 +1,21 @@
 .header {
-    position: relative;
-    height: 3.75rem;
+    height: 4rem;
     width: 100%;
-
+    background: #ebeaea;
+    margin-bottom: 1rem;
     &__logo {
         position: absolute;
         padding: 0.9375rem 1.25rem 0 0.9375rem;
         line-height: 3.625rem;
 
         img {
-            width: 5.75rem;
+            width: 6rem;
             height: 2.0625rem;
         }
     }
     &__link {
         a {
-            color: #000;
+            color: rgba(0, 0, 0, 0.87);
             cursor: pointer;
             text-decoration: none;
         }
