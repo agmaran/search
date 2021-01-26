@@ -1,18 +1,12 @@
 .container {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
 
     &__link {
-        font-family: arial, sans-serif;
         color: rgba(0, 0, 0, 0.87);
-        text-decoration: none;
         line-height: 1.5rem;
         padding-right: 1.875rem;
         padding-top: 0.9375rem;
-        &:last-child {
-            padding-left: 0.9375rem;
-        }
         &:hover {
             text-decoration: underline;
         }

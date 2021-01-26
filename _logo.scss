@@ -1,12 +1,9 @@
 .logo {
+    padding-top: 4rem;
     &__image {
         padding-top: 6.8125rem;
         display: block;
         margin: auto;
         height: 14.5625rem;
-        img {
-            height: 5.75rem;
-            width: 17rem;
-        }
     }
 }

@@ -58,13 +58,12 @@
 
 .input_name_wrapper {
     display: inline-block;
-    min-width: 167px;
-    width: 16%;
+    min-width: 170px;
     height: 42px;
     color: #222;
     font-size: 13px;
     line-height: 16px;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .input_name_cell {
@@ -79,7 +78,7 @@
     min-width: 167px;
     min-height: 41px;
     vertical-align: middle;
-    width: 50%;
+    width: 70%;
 }
 
 .input__cell {
@@ -87,35 +86,14 @@
     input {
         border-radius: 1px;
         border: 1px solid #d9d9d9;
-        border-top: 1px solid #c0c0c0;
-        font-size: 13px;
+        font-size: 1rem;
         height: 2.5rem;
         padding: 1px 8px;
         width: 100%;
+        outline: none;
     }
-}
-
-.guidance {
-    display: inline-block;
-    min-width: 160px;
-    margin: 0 0 8px 1%;
-    color: #555;
-    font-size: 11px;
-    padding-left: 5px;
-    vertical-align: middle;
-    position: relative;
-
-    &__text {
-        height: 30px;
-        display: table-cell;
-        vertical-align: middle;
-    }
-
-    span {
-        color: #666;
-        font-family: monospace;
-        font-size: 11px;
-        white-space: pre;
+    input:focus {
+        outline: 1px solid #6ea5fc;
     }
 }
 
@@ -123,18 +101,20 @@
     display: inline-block;
     min-width: 167px;
     min-height: 41px;
-    vertical-align: middle;
-    width: 50%;
 }
 
 .button {
     height: 30px;
     padding: 0 12px;
-    background-image: linear-gradient(top, #4d90fe, #4787ed);
+    background-color: #357ae8;
     border: 1px solid #3079ed;
     color: #fff;
     border-radius: 2px;
     font-size: 11px;
     font-weight: bold;
     text-align: center;
+
+    &:hover {
+        background-image: linear-gradient(top, #4d90fe, #357ae8);
+    }
 }
